@@ -1,6 +1,8 @@
 # ✨ Grid Game✨
 
-## Deployed Link  -> [Link]() ⭐
+## Deployed Link  -> [Link](https://grid-game-assignment.vercel.app/) ⭐
+
+⚠️ **Note:** The backend is deployed on Render using the free tier. It may take a few seconds to start if it has been inactive (cold start), so please allow some time for the app to respond initially.
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
