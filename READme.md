@@ -49,9 +49,9 @@ npm i
 ```
 
 ### Step 4: Setup .env file
-frontend
+frontend - (considering backend running on 5000)
 ```js
-NEXT_PUBLIC_BACKEND_URL=...
+NEXT_PUBLIC_BACKEND_URL=http://localhost:5000
 ```
 
 ### Usage
