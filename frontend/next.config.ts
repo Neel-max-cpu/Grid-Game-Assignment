@@ -1,10 +1,7 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
-  reactCompiler: true,
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+const nextConfig: NextConfig = {
+   reactCompiler: true  
 };
 
 export default nextConfig;
