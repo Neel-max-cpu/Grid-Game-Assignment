@@ -49,11 +49,6 @@ npm i
 ```
 
 ### Step 4: Setup .env file
-backend
-```js
-GEMINI_API_KEY=...
-
-```
 frontend
 ```js
 NEXT_PUBLIC_BACKEND_URL=...
