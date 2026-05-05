@@ -23,11 +23,18 @@ const getUser = () => {
 };
 
 const Home = () => {
-    const { user, colour } = getUser();
+    //const { user, colour } = getUser();
+     const [user, setUser] = useState<string | null>(null);
+    const [colour, setColour] = useState<string | null>(null);
     const [grid, setGrid] = useState<any[][]>([]);
     const [cooldown, setCooldown] = useState(false);
     const [leaderBoard, setLeaderBoard] = useState<any[]>([]);
     
+    useEffect(() => {
+        const { user, colour } = getUser();
+        setUser(user);
+        setColour(colour);
+    }, []);
 
     useEffect(() => {
         socket.on("init", (data) => {
